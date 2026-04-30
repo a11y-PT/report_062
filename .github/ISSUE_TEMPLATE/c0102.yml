@@ -1,0 +1,31 @@
+name: "R 1.2 - Conteúdo"
+description: "Clareza, termos complexos"
+title: "R 1.2 - Conteúdo (Clareza, termos complexos)"
+labels:
+  - chk conteúdo
+  - R 1.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Os termos mais complexos têm uma definição agregada.  
+        – [ver requisito 1.2 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n12)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

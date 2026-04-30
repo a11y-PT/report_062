@@ -1,0 +1,31 @@
+name: "R 4.3 - Transação"
+description: "Erros, associar mensagens de erro ao campo"
+title: "R 4.3 - Transação"
+labels:
+  - chk transação
+  - R 4.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As mensagens de erro são claramente identificadas junto aos campos de origem.  
+        – [ver requisito 4.3 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n43)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

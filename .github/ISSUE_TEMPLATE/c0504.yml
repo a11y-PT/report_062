@@ -1,0 +1,31 @@
+name: "R 5.4 - Conteúdo"
+description: "Interatividade, ser e parecer"
+title: "R 5.4 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 5.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Elementos gráficos interativos têm de aparentar ser clicáveis.  
+        – [ver requisito 5.4 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n54)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

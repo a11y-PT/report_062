@@ -1,0 +1,30 @@
+name: "R 2.3 - Transação"
+description: "Campos, etiquetas breves e claras"
+title: "R 2.3 - Transação"
+labels:
+  - R 2.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As legendas dos campos são breves e claras.  
+        – [ver requisito 2.3 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n23)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

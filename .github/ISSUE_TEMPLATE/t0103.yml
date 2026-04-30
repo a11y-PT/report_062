@@ -1,0 +1,30 @@
+name: "R 1.3 - Transação"
+description: "Formulários, passos ilustrados"
+title: "R 1.3 - Transação"
+labels:
+  - R 1.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Os formulários com mais de uma página têm a sequência de passos ilustrada.  
+        – [ver requisito 1.3 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n13)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

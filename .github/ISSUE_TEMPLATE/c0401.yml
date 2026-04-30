@@ -1,0 +1,31 @@
+name: "R 4.1 - Conteúdo"
+description: "Estrutura, indice em documentos longos"
+title: "R 4.1 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 4.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Os documentos longos têm um índice no topo com hiperligações internas para o mesmo.  
+        – [ver requisito 4.1 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n41)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

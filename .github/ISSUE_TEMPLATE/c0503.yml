@@ -1,0 +1,31 @@
+name: "R 5.3 - Conteúdo"
+description: "Interatividade, botão principal"
+title: "R 5.3 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 5.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Há apenas um botão de ação principal por página e o mesmo encontra-se destacado.  
+        – [ver requisito 5.3 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n53)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

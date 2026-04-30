@@ -1,0 +1,31 @@
+name: "R 2.1 - Conteúdo"
+description: "Usabilidade, tamanho e tipo de letra"
+title: "R 2.1 - Conteúdo (Usabilidade, tamanho e tipo de letra)"
+labels:
+  - chk conteúdo
+  - R 2.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O tipo de letra do corpo do documento é adequado e o tamanho da letra é, no mínimo, de 12 pontos.  
+        – [ver requisito 2.1 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n21)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

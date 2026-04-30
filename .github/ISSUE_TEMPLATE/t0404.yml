@@ -1,0 +1,31 @@
+name: "R 4.4 - Transação"
+description: "Erros, info sobre resolução"
+title: "R 4.4 - Transação"
+labels:
+  - chk transação
+  - R 4.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As mensagens de erro devem mostrar os passos concretos para a resolução dos mesmos.  
+        – [ver requisito 4.4 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n44)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

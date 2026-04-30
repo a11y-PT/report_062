@@ -1,0 +1,31 @@
+name: "R 2.2 - Transação"
+description: "Campos, revelação progressiva"
+title: "R 2.2 - Transação"
+labels:
+  - chk transação
+  - R 2.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        É usada revelação progressiva em vez de campos inativos.  
+        – [ver requisito 2.2 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n22)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

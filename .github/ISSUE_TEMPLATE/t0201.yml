@@ -1,0 +1,30 @@
+name: "R 2.1 - Transação"
+description: "Campos, tamanho previsível"
+title: "R 2.1 - Transação"
+labels:
+  - R 2.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O tamanho dos campos deve refletir o tamanho previsível dos dados.  
+        – [ver requisito 2.1 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n21)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

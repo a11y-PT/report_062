@@ -1,0 +1,31 @@
+name: "R 2.2 - Conteúdo"
+description: "Usabilidade, tamanho de letra info secundária"
+title: "R 2.2 - Conteúdo (Usabilidade, tamanho de letra info secundária)"
+labels:
+  - chk conteúdo
+  - R 2.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A informação secundária (datas, autores) utiliza, no mínimo, um tamanho de letra de 10 pontos.  
+        – [ver requisito 2.2 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n22)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

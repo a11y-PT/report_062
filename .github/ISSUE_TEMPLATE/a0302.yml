@@ -1,0 +1,31 @@
+name: "R 3.2 - 10 Aspetos Web"
+description: "Tabelas, título"
+title: "R 3.2 - 10 Aspetos Web (Tabelas, título)"
+labels:
+  - chk 10 web
+  - R 3.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A legenda da tabela está marcada com o elemento `<caption>`  
+        – [ver requisito 3.2 na lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n32)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

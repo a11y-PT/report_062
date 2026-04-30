@@ -1,0 +1,31 @@
+name: "R 3.1 - 10 Aspetos Web"
+description: "Tabelas, cabeçalhos das colunas"
+title: "R 3.1 - 10 Aspetos Web (Tabelas, cabeçalhos das colunas)"
+labels:
+  - chk 10 web
+  - R 3.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As células que constituem os cabeçalhos da tabela estão marcadas com o elemento `<th>`.  
+        – [ver requisito 3.1 na lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n31)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

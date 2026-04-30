@@ -1,0 +1,31 @@
+name: "R 5.2 - Conteúdo"
+description: "Interatividade, alvo de toque 44px"
+title: "R 5.2 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 5.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Os elementos interativos têm uma dimensão mínima de 44px CSS (44 pontos), vertical e horizontal.  
+        – [ver requisito 5.2 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n52)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

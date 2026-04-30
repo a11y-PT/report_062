@@ -1,0 +1,31 @@
+name: "R 2.3 - Conteúdo"
+description: "Usabilidade, carateres por linha"
+title: "R 2.3 - Conteúdo (Usabilidade, carateres por linha)"
+labels:
+  - chk conteúdo
+  - R 2.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Blocos e linhas de texto com largura não superior a 100 caracteres.  
+        – [ver requisito 2.3 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n23)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

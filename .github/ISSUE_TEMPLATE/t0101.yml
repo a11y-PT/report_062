@@ -1,0 +1,31 @@
+name: "R 1.1 - Transação"
+description: "Formulários, sequência de tabulação"
+title: "R 1.1 - Transação"
+labels:
+  - R 1.1
+  - chk transação
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A sequência de tabulação entre campos segue a sequência de preenchimento.  
+        – [ver requisito 1.1 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n11)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

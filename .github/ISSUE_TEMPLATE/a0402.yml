@@ -1,0 +1,31 @@
+name: "R 4.2 - 10 Aspetos Web"
+description: "Formulários, campos obrigatórios"
+title: "R 4.2 - 10 Aspetos Web (Formulários, campos obrigatórios)"
+labels:
+  - chk 10 web
+  - R 4.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        É possível identificar os campos de preenchimento obrigatório quando se usa apenas um leitor de ecrã.  
+        – [ver requisito 4.2 na lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n42)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

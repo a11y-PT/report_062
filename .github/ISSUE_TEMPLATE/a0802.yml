@@ -1,0 +1,31 @@
+name: "R 8.2 - 10 Aspetos Web"
+description: "Estrutura da página, ordem de leitura"
+title: "R 8.2 - 10 Aspetos Web (Estrutura da página, ordem de leitura)"
+labels:
+  - chk 10 web
+  - R 8.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Quando se retira a CSS, a informação aparece numa ordem lógica.  
+        – [ver requisito 8.2 na lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n82)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

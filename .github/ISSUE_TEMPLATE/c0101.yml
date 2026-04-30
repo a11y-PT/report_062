@@ -1,0 +1,31 @@
+name: "R 1.1 - Conteúdo"
+description: "Clareza, propósito do website"
+title: "R 1.1 - Conteúdo (Clareza, propósito do website)"
+labels:
+  - chk conteúdo
+  - R 1.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O sítio Web apresenta um resumo breve do seu propósito, visível sem fazer scroll.  
+        – [ver requisito 1.1 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n11)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

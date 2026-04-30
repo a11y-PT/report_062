@@ -1,0 +1,31 @@
+name: "R 3.2 - Conteúdo"
+description: "Navegação, visível e consistente"
+title: "R 3.2 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 3.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A navegação principal está sempre visível e sempre no mesmo local.  
+        – [ver requisito 3.2 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n32)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

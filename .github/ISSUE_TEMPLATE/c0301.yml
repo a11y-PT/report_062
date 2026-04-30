@@ -1,0 +1,31 @@
+name: "R 3.1 - Conteúdo"
+description: "Navegação, número de opções"
+title: "R 3.1 - Conteúdo"
+labels:
+  - chk conteúdo
+  - R 3.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nenhum nível de navegação tem mais de 9 opções.  
+        – [ver requisito 3.1 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n31)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

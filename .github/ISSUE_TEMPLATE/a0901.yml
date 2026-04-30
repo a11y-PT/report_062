@@ -1,0 +1,31 @@
+name: "R 9.1 - 10 Aspetos Web"
+description: "Modais, foco"
+title: "R 9.1 - 10 Aspetos Web (Modais, foco)"
+labels:
+  - chk 10 web
+  - R 9.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Quando a caixa de diálogo é aberta, o foco (cursor do Browser) move-se para um elemento dentro da caixa de diálogo  
+        – [ver requisito 9.1 na lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n91)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

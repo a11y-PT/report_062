@@ -1,0 +1,31 @@
+name: "R 1.1 - 10 Aspetos Web"
+description: "Menu, lista de opções"
+title: "R 1.1 - 10 Aspetos Web (Menu, lista de opções)"
+labels:
+  - chk 10 web
+  - R 1.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O menu de navegação deve estar estruturado como uma lista de opções.  
+        - [Ver requisito 1.1 da lista 10 aspetos](https://amagovpt.github.io/kit-selo/checklists/checklist-10aspetos#n11)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

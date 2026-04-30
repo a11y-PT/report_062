@@ -1,0 +1,30 @@
+name: "R 4.1 - Transação"
+description: "Erros, correção de ações"
+title: "R 4.1 - Transação"
+labels:
+  - R 4.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A informação já introduzida deve poder ser corrigida a qualquer momento.  
+        – [ver requisito 4.1 na lista Transação](https://amagovpt.github.io/kit-selo/checklists/checklist-transacao#n41)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

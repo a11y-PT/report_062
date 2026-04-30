@@ -1,0 +1,31 @@
+name: "R 2.4 - Conteúdo"
+description: "Usabilidade, espaçamento entre linhas"
+title: "R 2.4 - Conteúdo (Usabilidade, espaçamento entre linhas)"
+labels:
+  - chk conteúdo
+  - R 2.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O espaçamento entre linhas não é inferior a 1.5x o tamanho da letra.  
+        – [ver requisito 2.4 na lista Conteúdo](https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo#n24)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false
