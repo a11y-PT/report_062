@@ -24,7 +24,7 @@ Sítio Web: {{ page.website }}
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.website }}](12052026_report.html)
+Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
